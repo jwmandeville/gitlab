@@ -17,7 +17,7 @@ public interface IUser extends Serializable {
 	
 	public void setLanguage(String language);
 	
-	public void setName(String name);
+	public void setName(int name);
 	
 	public void addItemToWishList(ProductItem o);
 	
